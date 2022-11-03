@@ -1,0 +1,116 @@
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover ;
+}
+
+body {
+  color: #543f3f;
+  background-color: #e9c1dd;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300
+}
+
+h1 {
+  color: #c4160d;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 20px;
+}
+
+h2 {
+  color: rgb(113, 10, 107);
+  font-family: "Roboto", Arial, Helvetica;
+  font-size: 25px;
+  line-height: 10px;
+}
+
+h3 {
+  color: rgb(113, 10, 107);
+  font-family: "Poppins", Arial, Helvetica;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+p {
+  color:  antiquewhite;
+  font-family: "Poor Story", Arial, Helvetica;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 600
+}
+
+.btn-purple {
+  text-decoration: none;
+  font-size: 15px;
+  background-color: rgb(113, 10, 107);
+  color: white;
+  padding: 12px 16px;
+  font-weight: bolder;
+  border-radius: 9px;
+  display: inline-block;
+  margin-top: 14px;
+  opacity: .9;
+}
+
+.btn-purple:hover {
+  opacity: 2;
+}
+
+
+.card-antiquewhite {
+  background-color: antiquewhite;
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  margin: 24px 0px;
+  text-align: center;
+}
+
+.container {
+  width: 500px; /* 此处设置宽度*/。
+  margin: 10px 20px; /* 这将自动设置左/右边距*/。
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li a > i {
+  color: grey;
+  font-size: 48px;
+}
+.list-inline li a > i {
+  color: grey;
+  font-size: 48px;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 12px;
+}
+
+@media (max-width: 960px) {
+  /* 对于屏幕小于960px的情况，这个CSS将被读取 */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* 对于屏幕小于720px的情况，这个CSS将被读取 */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* 对于屏幕小于540px的情况，这个CSS将被读取 */
+  .container {
+    width: 300px;
+  }
+}
+/* - 这里的`<div class="container">`使用左右边距将页面内容居中，以防止它占据100%的窗口（那样不好看）。
+- `<div class="card">`用于将信息分组到一个白色方框中。
+- 为你的卡片添加很酷的装饰，使用CSS属性，如背景`background`，边界`border`，边界圆角`border-radius`和框架阴影效果`box-shadow`。记住保持简单，使用白色背景，微小的半径以及阴影（如你在课程视频中看到的那样）。 */
